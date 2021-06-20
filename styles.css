@@ -1,0 +1,153 @@
+/*
+ELEMENTS HAVE IT SET BY DEFAULT
+BLOCK: Always starts a new line and spans full width 
+INLINE: Does not start a new line and spans only content
+  */
+
+/* .block {
+  background: blue;
+  color: white;
+}
+
+.inline {
+  background: red;
+  color: white;
+  display: inline;
+  display: block;
+} */
+
+/* 
+HORIZONTAL CENTERING
+ */
+
+/* .block {
+  background: blue;
+  color: white;
+  width: 300px; */
+/* margin: 2rem auto; */
+/* margin-left: auto; */
+/* margin-right: auto;
+} */
+
+/* .inline {
+  background: red;
+  color: white;
+} */
+
+/* body {
+  text-align: center;
+} */
+
+/* 
+
+BLOCK:browser respects width/height, top/bottom margin 
+INLINE:browser does not respect width/height,top/bottom margin
+Navbar
+list-type -type:property
+descendent selectors
+
+*/
+
+/* span {
+  background: blue;
+  color: white;
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+/* body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+/* ul li {
+  list-style-type: none;
+} */
+
+/* ul li a {
+  color: #f15025;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background: #222;
+  display: block;
+  padding: 5px;
+  margin: 10px 10px;
+} */
+
+/* ul a {
+  color: green;
+} */
+/* 
+
+box-sizing :border-box
+default content-box
+ */
+/* .box-1,
+.box-2,
+.box-3 {
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-size: 1.5rem;
+} */
+
+/* .box-1 {
+  background: red;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.box-2 {
+  background: blue;
+}
+.box-3 {
+  background: green;
+} */
+
+/* a {
+  font-size: 1.5rem;
+  background: red;
+  width: 40px;
+  height: 40px;
+  margin: 40px 10px;
+  display: block;
+} */
+
+/* 
+display:none - remove from the flow , hide element
+collapse the space 
+opacity:0visibility:hidden- hides element preserves the space 
+
+ */
+
+div {
+  background: #f15025;
+  margin: 10px;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.none {
+  display: none;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.opacity-5 {
+  opacity: 0.5;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.visibility {
+  visibility: visible;
+}
